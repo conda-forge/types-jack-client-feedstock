@@ -1,11 +1,11 @@
-About types-jack-client
-=======================
+About types-jack-client-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-jack-client-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/python/typeshed
 
 Package license: Apache-2.0 AND MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-jack-client-feedstock/blob/main/LICENSE.txt)
 
 Summary: Typing stubs for JACK-Client
 
