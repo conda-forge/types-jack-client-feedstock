@@ -1,5 +1,5 @@
 {% set name = "types-JACK-Client" %}
-{% set version = "0.5.10.20240425" %}
+{% set version = "0.5.10.20240820" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-JACK-Client-{{ version }}.tar.gz
-  sha256: 7ae020b594c683ca7ad5f8b4f6355c2fc7c42f0bf947f60193bf40c8f6a46251
+  sha256: 3a3d64fab97b33db5108a449fe86e289d5be70780a7a9470bcd7f0c7fb625c98
 
 build:
   number: 0
