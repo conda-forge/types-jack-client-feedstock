@@ -1,4 +1,4 @@
-{% set version = "0.5.10.20241112" %}
+{% set version = "0.5.10.20250328" %}
 
 {% set python_min = python_min | default("3.9") %}
 
@@ -7,13 +7,13 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/t/types-jack-client/types-JACK-Client-{{ version }}.tar.gz
-  sha256: 09810611be395b3fd5538484e8a9b26dec8b8d10c46ecdb368fad87ad1d36b23
+  url: https://pypi.org/packages/source/t/types-jack-client/types_jack_client-{{ version }}.tar.gz
+  sha256: e42e1be8f0376dce54ca72def83fcba21dfd1678d02ea04ac4144e891164637e
 
 build:
   number: 0
   noarch: python
-  script: 
+  script:
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation --disable-pip-version-check
 
 requirements:
