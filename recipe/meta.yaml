@@ -1,7 +1,5 @@
 {% set version = "0.5.10.20250401" %}
 
-{% set python_min = python_min | default("3.9") %}
-
 package:
   name: types-jack-client
   version: {{ version }}
@@ -20,7 +18,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools
+    - setuptools >=77.0.3
   run:
     - numpy
     - python >={{ python_min }}
