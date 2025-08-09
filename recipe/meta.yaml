@@ -1,4 +1,4 @@
-{% set version = "0.5.10.20250801" %}
+{% set version = "0.5.10.20250809" %}
 
 package:
   name: types-jack-client
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-jack-client/types_jack_client-{{ version }}.tar.gz
-  sha256: caeafacc9c12f390335735872e4b02852bd1bd4d6ba9ec5ae026bb421776e93d
+  sha256: dd4cd66c803cf34e432584a657066b4e4d056e5d60b9f0d22c83c4ecd12c1211
 
 build:
   number: 0
