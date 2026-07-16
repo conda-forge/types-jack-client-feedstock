@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.5.10.20260627"
+  version: "0.5.10.20260716"
 
 package:
   name: types-jack-client
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-jack-client/types_jack_client-${{ version }}.tar.gz
-  sha256: c3edc0fdf1fb5f08dd0230408c9eb98f43d82c70a5da0fefb0a89da1b7b5dc7b
+  sha256: 296141bbfae6e64773e34cb9006051b6d5204cc1a255cd15e0ca2812426f004b
 
 build:
   number: 0
